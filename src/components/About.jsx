@@ -6,6 +6,7 @@ import { services } from '../constants'
 import { fadeIn, textVariant } from "../utils/motion"
 import { SectionWrapper } from '../hoc'
 
+
 const ServiceCard = ({ index, title, icon}) => {
   return (
     <Tilt
@@ -35,7 +36,7 @@ const ServiceCard = ({ index, title, icon}) => {
 }
 
 const About = () => {
-  const fileUrl = '/public/Onose CV.pdf';
+  const fileUrl = '../../public/Onose CV.pdf';
   return (
     <>
       <motion.div
