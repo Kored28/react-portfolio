@@ -36,7 +36,7 @@ const ServiceCard = ({ index, title, icon}) => {
 }
 
 const About = () => {
-  const fileUrl = '../../public/Onose CV.pdf';
+  const fileUrl = '/Onose CV.pdf';
   return (
     <>
       <motion.div
