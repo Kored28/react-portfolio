@@ -36,7 +36,7 @@ const ServiceCard = ({ index, title, icon}) => {
 }
 
 const About = () => {
-  const fileUrl = '/Onose CV.pdf';
+  const fileUrl = '/Onose Resume software.pdf';
   return (
     <>
       <motion.div

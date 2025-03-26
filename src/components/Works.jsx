@@ -30,12 +30,12 @@ const ProjectCard = ({ name, description, tags, image, source_code_link, netlify
           m-3 card-img_hover"
           >
             <div
-              onClick={() => window.open(source_code_link, "_blank")}
-              className="black-gradient w-10 h-10 rounded-full 
+              onClick={() => window.open(netlify_code_link, "_blank")}
+              className="orange-text-gradient w-10 h-10 rounded-full 
               flex justify-center items-center cursor-pointer"
             >
-              <img src={github} alt="github"
-                className="w-1/2 h-1/2 object-contain"
+              <img src={eye} alt="view"
+                className="w-14 h-14 "
               />
             </div>
           </div>
@@ -45,12 +45,12 @@ const ProjectCard = ({ name, description, tags, image, source_code_link, netlify
           m-3 card-img_hover"
           >
             <div
-              onClick={() => window.open(netlify_code_link, "_blank")}
-              className="orange-text-gradient w-10 h-10 rounded-full 
+              onClick={() => window.open(source_code_link, "_blank")}
+              className="black-gradient w-10 h-10 rounded-full 
               flex justify-center items-center cursor-pointer"
             >
-              <img src={eye} alt="view"
-                className="w-14 h-14 "
+              <img src={github} alt="github"
+                className="w-1/2 h-1/2 object-contain"
               />
             </div>
           </div>

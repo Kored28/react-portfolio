@@ -40,7 +40,7 @@ const Hero = () => {
             Hi, I am <span className='text-[#22c55e] flex gap-3'>Onose <span className='sm:flex hidden'>Ogbidi</span></span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I'm a software engineer with 3 years <br className='sm:block hidden' /> experience in building web applications.
+            I'm a software engineer with 2+ years <br className='sm:block hidden' /> experience in building web applications.
           </p>
         </div>
       </div>
