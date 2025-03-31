@@ -50,7 +50,9 @@ const Hero = () => {
           <img src={laptop} alt="" />
         </div>
         :
-        <ComputersCanvas/>
+        <div className="absolute left-[30%] bottom-[5px] w-[500px]">
+          <img src={laptop} alt="" />
+        </div>
       }
 
       <div className="absolute xs:bottom-5 bottom-[60px] w-full flex justify-center items-center">

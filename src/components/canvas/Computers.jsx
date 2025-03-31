@@ -6,8 +6,7 @@ import CanvasLoader from '../Loader'
 
 
 const Computers = ({ isMobile }) => {
-  const computer = useGLTF("/sky_computers/scene.gltf")
-  
+  const {scene} = useGLTF("./computer/scene.glb")
   return (
     <mesh>
       <hemisphereLight intensity={1.5} groundColor="black" />
@@ -20,7 +19,7 @@ const Computers = ({ isMobile }) => {
         castShadow
         shadow-mapSize={1024}
       />
-      <primitive object={computer.scene}
+      <primitive object={scene}
        scale={isMobile ? 0.015 : 0.02} 
        position={isMobile ? [0, -2.2, 0] :[0, -2.19, -0.1]}
        rotation={[-0.01, 1.4, -0.01]} 
